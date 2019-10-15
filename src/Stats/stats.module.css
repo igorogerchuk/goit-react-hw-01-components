@@ -1,0 +1,28 @@
+.statsSection {
+  text-align: center;
+  min-width: 300px;
+  background-color: rgb(225, 225, 225);
+  border: 1px solid black;
+}
+
+.title {
+  margin: 20px;
+}
+
+.statList {
+  display: flex;
+}
+
+.item {
+  padding: 20px 0;
+  border: 1px solid black;
+  flex: 1 1 auto;
+}
+
+.label {
+  display: block;
+}
+
+.percentage {
+  display: block;
+}
