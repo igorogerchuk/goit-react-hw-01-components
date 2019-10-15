@@ -38,8 +38,11 @@
 .stats > li {
   padding: 20px 0;
   border: 1px solid black;
-  margin-right: -1px;
   flex: 1 1 33.33%;
+}
+
+.stats > li:not(:last-child) {
+  border-right: none;
 }
 
 .label {
