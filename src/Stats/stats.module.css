@@ -1,8 +1,9 @@
-.statsSection {
-  text-align: center;
-  min-width: 300px;
+.statssection {
+  display: inline-block;
+  min-width: 400px;
   background-color: rgb(225, 225, 225);
-  border: 1px solid black;
+  box-shadow: 5px 5px 20px 5px rgba(0, 0, 0, 0.5);
+  margin-bottom: 50px;
 }
 
 .title {
@@ -11,12 +12,6 @@
 
 .statList {
   display: flex;
-}
-
-.item {
-  padding: 20px 0;
-  border: 1px solid black;
-  flex: 1 1 auto;
 }
 
 .label {

@@ -1,20 +1,23 @@
 .profile {
-  text-align: center;
   padding: 80px;
   box-shadow: 5px 5px 20px 5px rgba(0, 0, 0, 0.5);
   background-color: rgb(225, 225, 225);
+  max-width: 400px;
+  margin: 0 auto;
+  margin-bottom: 50px;
 }
 
 .description {
   padding: 50px;
   background-color: rgb(255, 255, 255);
-  border: 1px solid black;
+  border: 1px solid rgb(200, 200, 200);
   border-bottom: 0;
 }
 
 .avatar {
   margin: 0 auto;
   margin-bottom: 20px;
+  border-radius: 50%;
 }
 
 .name {
@@ -37,8 +40,8 @@
 
 .stats > li {
   padding: 20px 0;
-  border: 1px solid black;
-  flex: 1 1 33.33%;
+  border: 1px solid rgb(200, 200, 200);
+  flex: 1 1 0;
 }
 
 .stats > li:not(:last-child) {

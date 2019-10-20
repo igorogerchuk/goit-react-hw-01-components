@@ -3,7 +3,7 @@ import T from 'prop-types';
 import styles from './friends.module.css';
 
 const FriendList = ({ friends }) => (
-  <ul className="friend-list">
+  <ul className={styles.friendlist}>
     {friends.map(friend => (
       <FriendListItem {...friend} key={friend.id} />
     ))}
@@ -11,10 +11,15 @@ const FriendList = ({ friends }) => (
 );
 
 const FriendListItem = ({ avatar, isOnline, name }) => (
-  <li className="item">
+  <li className={styles.item}>
     <span className={isOnline ? styles.online : styles.status}></span>
-    <img className="avatar" src={avatar} alt="friend's avatar" width="48" />
-    <p className="name">{name}</p>
+    <img
+      className={styles.avatar}
+      src={avatar}
+      alt="friend's avatar"
+      width="100"
+    />
+    <p className={styles.name}>{name}</p>
   </li>
 );
 
